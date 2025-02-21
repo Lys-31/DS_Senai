@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cb935b89;
+    color: #333;
+}
+
+header {
+    background-color: #cb935baf;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: white;
+    font-size: 36px;
+}
+
+.quem-somos {
+    width: 70%;
+    margin: 40px auto;
+    text-align: center;
+    background-color: #e4b3787c;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quem-somos h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.quem-somos p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.quem-somos img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #cb935baf;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 14px;
+}
